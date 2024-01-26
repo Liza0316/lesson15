@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1900px){
+    .Homepage{
+        background-color: #EEEFF1;
+        height: 700px; 
+
+        nav{
+            margin: 0 auto;
+            justify-content: space-between;
+            display: flex;
+            padding-top: 79px;
+        }
+    
+        .tittle{
+            list-style: none;
+            text-decoration: none;
+            display:flex;
+            gap: 42px;
+        margin: 0 auto;
+        font-family: Roboto;
+        font-weight: 400; 
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        }
+    
+        .paragraph{
+            margin-top: 0;
+            margin-bottom: 65px;
+            color: #727272;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        }
+        
+        
+        .design{
+            width: 50vw;
+            margin: 0 auto;
+        }
+        
+        .layout{
+            color: #000;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        margin-top: 151px;
+        }
+        
+        .btn{
+            // min-width: 225px;
+            // min-height: 65px;
+            cursor: pointer;
+            background: #34547A;
+            color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1.6px;
+        }
+        
+    }
+    
+    header{
+    margin:  0 auto;
+    }
+
+    .about-me{
+       width: 50vw;
+        margin: 0 auto;
+        text-align: center;
+        gap: 50px;
+
+        &-div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    .two{
+        padding-left: 0;
+        width: 50vw;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .me{
+        margin-top: 112px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+.icons{
+    margin: 0 auto;
+    width: 100vw;
+    height: 250px;
+    background-color: #34547A;
+
+    .text{
+        width: 150px;
+        float: left;
+       margin-top: 100px;
+    }
+
+    .one{
+        margin-left: 100px;
+    }
+    .projects{
+        color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    } 
+
+    img{
+        float: left;
+      max-width: 50px;
+      max-height: 50px;
+      padding-right: 20px;
+    }
+}
+
+.work{
+    height: 1004px;
+    background-color:  #EEEFF1;
+    margin: 0 auto;
+    text-align: center;
+    gap: 50px;
+
+    &-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+.three{
+    width: 50vw;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 101px;
+}
+
+.how{
+    margin-top: 0;
+    padding-top: 100px;
+}
+}
+
+iframe{
+    width: 60vw;
+
+}
+
+}
